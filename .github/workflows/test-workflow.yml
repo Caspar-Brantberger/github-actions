@@ -30,4 +30,4 @@ jobs:
           distribution: 'temurin'
           java-version: '17'
       - name: Build with maven
-        run: mvn test
+        run: mvn clean test
