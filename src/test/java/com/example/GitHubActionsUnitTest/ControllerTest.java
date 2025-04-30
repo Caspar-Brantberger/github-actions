@@ -31,6 +31,10 @@ class ControllerTest {
         //assert
         assertEquals(2.5, result);
     }
+    @Test
+    void helloWorldTest(){
+        assertTrue(true);
+    }
 
 
 }
